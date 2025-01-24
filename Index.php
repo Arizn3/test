@@ -1,2 +1,2 @@
 <?php
-echo "Rien de nouveau à l'Ouest =)";
+echo "Rien de nouveau à l'Ouest :)";
