@@ -1,0 +1,31 @@
+body{
+    background-color: rgba(0, 255, 255, 0.248);
+}
+
+.titre{
+    font-family:fantasy;
+    color:rgb(29, 124, 41);
+    font-size: 130px;
+}
+
+
+.sous-titre{
+    color:rgb(32, 113, 60);
+    font-weight: bold;
+    font-style: italic;
+}
+
+button{
+    background-color:chartreuse
+}
+
+.histoire {
+    border: solid green;
+    color:rgb(50, 36, 242);
+    font-style: italic;
+}
+
+.wood {
+    height: 400px;
+    width: 600px;
+}
