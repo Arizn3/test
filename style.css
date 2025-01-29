@@ -1,8 +1,8 @@
-body{
+body {
     background-color: rgb(109, 249, 223);
 }
 
-.titre{
+.titre {
     text-align: center;
     font-family:fantasy;
     color:rgb(29, 124, 41);
@@ -11,49 +11,65 @@ body{
     margin-bottom: -80px;
 }
 
-.sous-titre{
+.sous-titre {
     text-align: center;
     color:rgb(32, 113, 60);
     font-weight: bold;
     font-style: italic;
 }
 
-button{
-    background-color:chartreuse
-}
-
-.histoiretitre {
-    color: rgb(156, 110, 46);
+.slogan {
     text-align: center;
-
-    margin-top: 200px;
+    color: rgb(29, 124, 41);
+    font-family: fantasy;
 }
 
-.histoire {
+.presentation {
     text-align: center;
     font-style: italic;
-    background-color: white; 
-    color:rgb(50, 36, 242);
+    background-color: rgb(255, 255, 255); 
+    color: rgba(38, 168, 83, 0.957);
     width: 350px;
 
-    border-radius: 100px;
-    border: solid 200px green;
+    border: solid 3px rgb(109, 204, 235);
+    border-radius: 5px;
 
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 200px;
     padding-left: 20px;
     padding-right: 20px;
     
     margin-left: 700px;
     margin-bottom: 100px;
+    margin-top: 200px;
 }
 
-.wood {
+.habitats {
     height: 400px;
     width: 400px;
 
     border-radius: 200px;
     border: solid 5px white;
 
-    margin-left: 700px;
+    margin-left: 200px;
+}
+
+.histoire {
+    height: 400px;
+    width: 400px;
+
+    border-radius: 200px;
+    border: solid 5px white;
+
+    margin-left: 80px;
+}
+
+.service {
+    height: 400px;
+    width: 400px;
+
+    border-radius: 200px;
+    border: solid 5px white;
+
+    margin-left: 80px;
 }
