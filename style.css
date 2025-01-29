@@ -1,15 +1,18 @@
 body{
-    background-color: rgba(0, 255, 255, 0.248);
+    background-color: rgb(109, 249, 223);
 }
 
 .titre{
+    text-align: center;
     font-family:fantasy;
     color:rgb(29, 124, 41);
     font-size: 130px;
+
+    margin-bottom: -80px;
 }
 
-
 .sous-titre{
+    text-align: center;
     color:rgb(32, 113, 60);
     font-weight: bold;
     font-style: italic;
@@ -19,13 +22,38 @@ button{
     background-color:chartreuse
 }
 
+.histoiretitre {
+    color: rgb(156, 110, 46);
+    text-align: center;
+
+    margin-top: 200px;
+}
+
 .histoire {
-    border: solid green;
-    color:rgb(50, 36, 242);
+    text-align: center;
     font-style: italic;
+    background-color: white; 
+    color:rgb(50, 36, 242);
+    width: 350px;
+
+    border-radius: 100px;
+    border: solid 200px green;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    margin-left: 700px;
+    margin-bottom: 100px;
 }
 
 .wood {
     height: 400px;
-    width: 600px;
+    width: 400px;
+
+    border-radius: 200px;
+    border: solid 5px white;
+
+    margin-left: 700px;
 }
