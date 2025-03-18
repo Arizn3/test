@@ -1,47 +1,50 @@
 body {
-    background-color: cyan;
+    background-color: rgb(153, 240, 153);
+    background-image: url(http://localhost/A01/public/bg-tittle.png), url(http://localhost/A01/public/bg-g.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top, bottom;
+    background-size: 100%, 100%;
+
+    margin-bottom: 1090px;
 }
 
 .titre {
     text-align: center;
-    font-family: fantasy;
+    font-family: marker fantasy;
+    font-variant: small-caps;
     color: rgb(29, 124, 41);
-    font-size: 130px;
+    font-size: 300px;
+    font-weight: 200px;
 
     margin-bottom: -80px;
 }
 
 .sous-titre {
     text-align: center;
-    color: rgb(32, 113, 60);
+    color: rgb(255, 255, 255);
     font-weight: bold;
     font-style: italic;
 }
 
 .slogan {
     text-align: center;
-    color: rgb(29, 124, 41);
+    color: rgb(255, 255, 255);
     font-family: fantasy;
 }
 
 .presentation {
     text-align: center;
-    font-style: italic;
-    background-color: rgb(255, 255, 255);
-    color: rgba(38, 168, 83, 0.957);
+    font-size: 20px;
+    color: rgba(107, 224, 147, 0.96);
     width: 350px;
 
-    border: solid 3px rgb(109, 204, 235);
-    border-radius: 5px;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
 
-    padding-top: 20px;
-    padding-bottom: 200px;
-    padding-left: 20px;
-    padding-right: 20px;
-
-    margin-left: 700px;
-    margin-bottom: 100px;
-    margin-top: 200px;
+    margin-top: 80px;
+    margin-bottom: 190px;
+    margin-left: 80px;
 }
 
 .habitats {
@@ -49,7 +52,7 @@ body {
     width: 400px;
 
     border-radius: 200px;
-    border: solid 5px white;
+    border: solid 10px white;
 
     margin-left: 200px;
 }
@@ -59,7 +62,7 @@ body {
     width: 400px;
 
     border-radius: 200px;
-    border: solid 5px white;
+    border: solid 10px white;
 
     margin-left: 80px;
 }
@@ -69,7 +72,7 @@ body {
     width: 400px;
 
     border-radius: 200px;
-    border: solid 5px white;
+    border: solid 10px white;
 
     margin-left: 80px;
 }
